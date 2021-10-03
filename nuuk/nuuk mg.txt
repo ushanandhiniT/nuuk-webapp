@@ -1,0 +1,3 @@
+<div id="background-image">
+     <img src="backgroungimage.jpg"/>
+    </div>

@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+input, textarea {
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+@media screen(min-width:400px) {
+  .media {width: 100%;}
+}
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.banner{
+  
+  background-color: #c1c3cc;
+  background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%) url("backgroungimage.jpg");
+  background-position: 0px 0px, 50% 0%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+}
+.logo{
+  background-color: crimson;
+  
+}
+.menu{
+  margin: 0px 10px;
+  color: white;
+}
+
+.menu:hover{
+  cursor: pointer;
+  color: orangered;
+}
+#get-freequote{
+  background-color: orangered;
+  padding: 20px;
+  color: white;
+}
+
+
+.info-flex{
+background-color: orangered;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+width: 100%;
+padding-top: 30px;
+padding-bottom: 30px;
+width: 80%;
+}
+.info-image{
+  width: 24px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: auto;
+  
+}
+.text{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase
+    
+}
+.para{
+    margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+.map{
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+}
+.map:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #e47312;
+  cursor: pointer;
+  
+}
+
+/* SERVICE SECTION STYLE STARTS*/
+.toptitle-wrapper{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  }
+.toptitle-service{
+  position: absolute;
+  top: 500px;
+  color: rgba(241, 241, 247, 0.4);
+  font-size: 120px;
+  letter-spacing: 11px;
+  margin-right: 150px;
+  padding-left: 50px;
+}
+.top-title{
+  position: relative;
+  top: 30px;
+  left: 105px;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.view-service{
+  color: rgb(131, 127, 127);
+  padding-right: 50px;
+}
+.view-service:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #e47312;
+  cursor: pointer;
+}
+
+/* SERVICE SECTION STYLE ENDS*/
+
+/* SERVICE SUB-SECTION STYLE STARTS*/
+.img-renovation{
+  width: 60px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: auto;
+}
+.sub-service{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 50px;
+  padding-right: 50px; 
+}
+.subservice-wrapper{
+   margin-top: 0px;
+   font-size: 17px;
+   line-height: 30px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+.subservice-para{
+  margin-bottom: 10px;
+  font-family: 'Doss', sans-serif;
+  color: #919197;
+  font-size: 17px;
+  line-height: 25px;
+}
+.learn-more{
+  color: #919198;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+}
+.learn-more:hover{
+  
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  -moz-text-decoration-color: #e47312;
+  cursor: pointer;
+}
+/* SERVICE SUB-SECTION STYLE ENDS*/
+
+/* ABOUT SECTION STYLE STARTS*/
+
+.about-flex{
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  margin: 50px 50px;
+  padding: 50px 30px;
+}
+.about-img{
+  position: relative;
+  top: 280px;
+  right: 40px;
+  
+}
+.about{
+  left: 53px;
+  top: -26px;
+   color: rgba(241, 241, 247, 0.4);
+  font-size: 120px;
+  letter-spacing: 11px;
+}
+#about-we{
+  position: relative; 
+  top: 235px;
+  left: 70px;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  
+}
+.about-para{
+  position: relative;
+  top: -70px;
+  left: 50px;
+  font-family: 'Dosis', sans-serif;
+  color: #919197;
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 100px;
+}
+.about-team{
+  color: #919198;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+}
+.about-team:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #e47312;
+  cursor: pointer;
+}
+
+/* ABOUT SECTION STYLE END*/
+
+.num-wrapper{
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  padding-right: 40%;
+  margin-left: 100px;
+}
+.number{
+  color: #e47312;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 500;
+  font-family: 'Dosis', sans-serif;
+  padding-left: 250px;
+}
+.num-text{
+  margin-bottom: 10px;
+  font-family: 'Dosis', sans-serif;
+  color: #919197;
+  font-size: 17px;
+  line-height: 25px;
+  margin-right: -450px;
+  
+}
+
+/* PROJECT SECTION STYLE STARTS */
+.proj{
+  background-color: white;
+}
+#project-wrapper{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+.project{
+  position: relative;
+  top: -100px;
+  right: 50px;
+  color: rgba(241, 241, 247, 0.4);
+  font-size: 120px;
+  letter-spacing: 11px;
+}
+.our-work{
+  position: relative;
+  top: -320px;
+  right: 230px;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 6px;
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+}
+.view-work{
+  text-align: center;
+  position: relative;
+  top: 50px;
+  color: #919198;
+}
+.view-work:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #e47312;
+  cursor: pointer;
+}
+
+
+/* PROJECT IMAGE SECTION STARTS */
+.view-imgwrapper{
+  padding-left: 30px;
+  padding-right:30px;
+  margin-top: 0px;
+}
+.view-imgwrapper:hover{
+  cursor: pointer;
+}
+
+/* PROJECT IMAGE SECTION ENDS */
+
+/* GET FREE QUOTE SECTION STARTS */
+
+.freequote-wrapper{
+  background-image: linear-gradient(72deg, #e47312, rgb(255, 99, 97, 0.78)),url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color: #e47312;
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.freequote-title{
+  
+  color: #fff;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.freequote-para{
+   margin-top: 2%;
+   margin-right: 2%;
+   margin-left: 2%;
+  font-family: 'Dosis', sans-serif;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  list-style: 12px;
+}
+.getfree-quote{
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 50px;
+}
+.getfree-quote:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
+/* GET FREE QUOTE SECTION ENDS */
+
+/* ABOUT SECTION STARTS */
+.aboutus-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f8fc;
+  margin:0px 20px;
+}
+.aboutus-team{
+  /* position:absolute;
+  top: 4220px; */
+  color: rgba(241, 241, 247, 0.75);
+  font-size: 80px;
+  letter-spacing: 11px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.aboutus-prof{
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-family: 'Dosis', sans-serif;
+  color: #121213;
+}
+.about-us{
+  color: #919198;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family:'Dosis', sans-serif ;
+}
+.about-us:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #e47312;
+}
+/* ABOUT SECTION ENDS */
+
+/*TEAM SECTION STARTS */
+
+.team-warpper{
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-family: 'Dosis', sans-serif;
+  color: #121213;
+  font-size: 14px;
+  line-height: 20px
+  background-color: rgb(250, 243, 243);
+  
+
+}
+.team-photo_1{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg);
+  min-height: 1000px;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+.team-photo_2{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg);
+  min-height: 1000px;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+.team-photo_3{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg);
+  min-height: 1000px;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+.team-photo_4{
+  background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg);
+  min-height: 1000px;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+.team-content{
+  text-align: center;
+  
+  
+  
+}
+
+
+/*TEAM SECTION END */
+
+/*TESTIMONIALS STYLE SECTION STARTS */
+
+.clients-wrapper{
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f8fc;
+  margin:0px 20px;
+}
+.clients{
+  position:relative;
+  color: rgba(241, 241, 247, 0.75);
+  font-size: 80px;
+  letter-spacing: 11px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.testimonials{
+  position: relative;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-family: 'Dosis', sans-serif;
+  color: #121213;
+}
+.our-service{
+  color: #919198;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family:'Dosis', sans-serif ;
+}
+.our-service:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e47312;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+.clients-para{
+  font-family: 'Dosis', sans-serif;
+  color: #919197;
+  font-size: 17px;
+  line-height: 25px;
+
+}
+
+
+
+/*TESTIMONIALS STYLE SECTION END */
+
+/*BLOG STYLE SECTION STARTS */
+
+.blog-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f8fc;
+  margin:0px 20px;
+}
+.blog{
+  position:relative;
+  right: 70px;
+  color: rgba(241, 241, 247, 0.75);
+  font-size: 80px;
+  letter-spacing: 11px;
+  line-height: 40px;
+  font-weight: 600;
+}
+.latest-news{
+  position: relative;
+  right: 70px;
+  top: -95px;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-family: 'Dosis', sans-serif;
+  color: #121213;
+}
+.view-blog{
+  color: #919198;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family:'Dosis', sans-serif ;
+}
+.view-blog:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  -webkit-text-decoration-color: #e76705;
+}
+
+
+
+/*BLOG STYLE SECTION END */
+
+/* BLOG-SUB STYLE SECTION STARTS */  
+  
+.blogpost-wrapper{
+  display: inline-flex;
+  justify-content: center;
+  
+}
+.bp-square{
+  width: 33.3%;
+ 
+}
+.bp-square1{
+  width: 33.3%;
+  
+}  
+.bp-square2{
+  width: 33.3%;
+ 
+}
+
+/* BLOG-SUB STYLE SECTION END */ 
+
+/* LOGO STYLE SECTION STARTS */
+.trusted-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to right , rgb(255, 132, 0), rgb(233, 45, 20) , rgba(245, 47, 33, 0.616) );
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+.trusted-by{
+  text-align: center;
+}
+.logo-trust{
+ display: flex;
+ justify-content: stretch;
+ margin: 40px; 
+ font-family: 'Dosis', sans-serif;
+}
+.logo-trust:hover{
+  cursor: pointer;
+}
+
+/* LOGO STYLE SECTION ENDS */
+
+/* FOOTER STYLE SECTION STARTS */
+
+.footer-column{
+  margin-right: 80px;
+  margin-left: 80px;
+  background-color: #0a1229;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.top-title{
+  margin-top: 0px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.para-style{
+  font-family: 'Dosis', sans-serif;
+  margin-top: 60px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 17px;
+  line-height: 25px;
+}
+.top-tit{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-weight: 600;
+}
+.fr{
+  margin-top: 10px;
+  font-family: 'Doss', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+.fr:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+.fnd-on{
+  margin-left: 50px;
+}
+.fnd-on:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+
+}
+
+.top-ti{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-weight: 600;
+  
+}
+.edt{
+  font-family: 'Dosis', sans-serif;
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 17px;
+  line-height: 5px;
+  
+
+}
+.f-nuuk{
+  background-color: #e47312;
+  border: 1px solid #e47312;
+  width: 70px;
+  padding: 20px;
+  position: relative;
+  right: 51em;
+  top: -20px;
+  margin-left: 10px;
+}
+/* FOOTER STYLE SECTION END */
+
+
+
+
